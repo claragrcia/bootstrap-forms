@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <title> Latin American Cuisine Quiz
+  </title>
+  <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+
+ </head>
+
+
+<body>
+
+<div class='container'>
+  <div class="row">
+    <div class='col-md-8'>
+      <!--  Start Quiz -->
+      <h1> Latin American Cuisine </h1>
+        <p>There are 20 countries in Latin America. The region is home to one of the most distint cuisines. Each nation has it's own unique culture, customs, and food, that oftentimes transcend borders and languages. Influenced by Native, Iberian, Asian, and African traditions, Latin American cuisine is recognized worlwide. </p>
+
+        <p>Read <a href="https://en.wikipedia.org/wiki/Latin_American_cuisine"> this Wikipedia page</a> before answering the following questions. </p>
+
+      <form>
+        <!-- text -->
+        <fieldset class="form-group">
+          <legend>Influences in Latin American Food</legend>
+          <div class="form-group">
+            <label for="nativecrops"> Name One Native American Crop </label>
+            <input class="form-control" type="text" name="nativecrops" id="nativecrops" placeholder="Write it Here">
+          </div>
+          <div class="form-group">
+            <label for="asianwaves"> Asian immigration to Latin America comes from two main countries. <em>Name one</em></label>
+            <input class= "form-control" type="text" name="asianwaves" id="asianwaves" placeholder="Write it Here">
+          </div>
+</fieldset>
+
+      <!-- textarea -->
+
+<fieldset>
+  <legend> The Caribbean </legend>
+  <label for="caribbeancuisine">Caribbean cuisine encompasses Cuba, Haiti, and Puerto Rico.
+  <em>Describe what are some of the elements used in Caribbean gastronomy.</em></label>
+  <textarea class= "form-control" name="caribbeancuisine" id="caribbeancuisine" rows="6">100 words or less! </textarea>
+
+<!-- Radio Buttons -->
+
+<div class="form-group">
+<label> Which one of the following is a basic spice of Cuban cuisine? </label>
+
+    <div class="form-check"><label class="form-check-label"><input type="radio" name="cubanspice" value="cumin"> Cumin</label></div>
+    <div class="form-check"><label class="form-check-label"><input type="radio" name="cubanspice" value="curry"> Curry</label></div>
+    <div class="form-check"><label class="form-check-label"><input type="radio" name="cubanspice" value="nutmeg"> Nutmeg</label></div>
+    <div class="form-check"><label class="form-check-label"><input type="radio" name="cubanspice" value="ginger"> Ginger</label></div>
+</div>
+</fieldset>
+
+  <!-- Checkboxes -->
+
+<fieldset class="form-group">
+<legend> South America</legend>
+  <label> Argentine Cuisine was influenced by several indigenous groups. Check all that apply. </label>
+  <div class="form-check"><label class="form-check-label"><input type="checkbox" name="argentine_groups" value="quechua"> Quechua</label></div>
+  <div class="form-check"><label class="form-check-label"><input type="checkbox" name="argentine_groups" value="Guarani"> Guarani</label></div>
+  <div class="form-check"><label class="form-check-label"><input type="checkbox" name="argentine_groups" value="Wayuu"> Wayuu</label></div>
+  <div class="form-check"><label class="form-check-label"><input type="checkbox" name="argentine_groups" value="mapuche"> Mapuche</label></div>
+  <div class="form-check"><label class="form-check-label"><input type="checkbox" name="argentine_groups" value="Caribe"> Caribe</label></div>
+  </fieldset>
+
+<!-- Drop-down Menu-->
+
+<div class="form-group">
+  <label for="medellin_dish"> What is the typical dish of the City of Medellin?</label>
+<select class="form-control" name="medellin_dish" id="medellin_dish">
+   <option value="bandejacosteña">Bandeja Costeña</option>
+   <option value="pabellon">Pabellón</option>
+   <option value="ceviche">Ceviche</option>
+   <option value="bandejamedellin">Bandeja Medellinera</option>
+   <option value="bandejapaisa">Bandeja Paisa</option>
+   <option value="andeanpacha">Andean Pachamanca</option>
+</select>
+</div>
+<!-- Submit/Reset-->
+<div class="form-group">
+<input type="submit" class="btn btn-success" value="Submit">
+<input type="reset" class="btn btn-default" value="Start over!">
+</div>
+
+
+
+
+
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
